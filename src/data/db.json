@@ -1,0 +1,303 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "teste@email.com",
+      "password": "123456",
+      "saldo": 1730
+    },
+    {
+      "name": "teste",
+      "email": "teste2@gmail.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "gui teste",
+      "email": "teste3@email.com",
+      "password": "12345678",
+      "id": 3,
+      "saldo": 0
+    },
+    {
+      "name": "gui teste 5",
+      "email": "gui2@email.com",
+      "password": "123456789",
+      "id": 4,
+      "saldo": 0
+    },
+    {
+      "name": "gui8",
+      "email": "gui@email.com",
+      "password": "guilherme",
+      "id": 5
+    },
+    {
+      "name": "diogo",
+      "email": "diogo@email.com",
+      "password": "diogo09*",
+      "id": 6
+    },
+    {
+      "name": "henrique",
+      "email": "henrique@email.com",
+      "password": "henrique",
+      "id": 7
+    },
+    {
+      "name": "teste ",
+      "email": "teste@email.com",
+      "password": "guilherme",
+      "id": 8
+    },
+    {
+      "name": "gui",
+      "email": "gui@email.com",
+      "password": "guilherme",
+      "id": 9
+    },
+    {
+      "name": "gui",
+      "email": "gui@email.com",
+      "password": "12345678",
+      "id": 10
+    },
+    {
+      "name": "gui",
+      "email": "gui@email.con",
+      "password": "guilherme",
+      "id": 11
+    },
+    {
+      "name": "henrique",
+      "email": "henrique@gmail.com",
+      "password": "okmijnuhbyg",
+      "id": 12
+    },
+    {
+      "name": "hugo",
+      "email": "hugo@email.com",
+      "password": "hugo123",
+      "id": 13,
+      "saldo": 20
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "userId": 1,
+      "type": "deposit",
+      "amount": 100,
+      "toUserId": null,
+      "timestamp": "2025-04-13T13:00:00Z"
+    },
+    {
+      "userId": 1,
+      "type": "deposit",
+      "amount": 10,
+      "toUserId": null,
+      "timestamp": "2025-04-14T03:02:17.231Z",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "type": "deposit",
+      "amount": 20,
+      "toUserId": null,
+      "timestamp": "2025-04-14T03:03:30.962Z",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "type": "transfer",
+      "amount": 110,
+      "toUserId": 1,
+      "timestamp": "2025-04-14T03:04:34.965Z",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "type": "reversal",
+      "amount": 110,
+      "toUserId": 1,
+      "timestamp": "2025-04-14T03:04:41.834Z",
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "type": "deposit",
+      "amount": 300,
+      "toUserId": null,
+      "timestamp": "2025-04-14T03:04:56.949Z",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "type": "reversal",
+      "amount": 300,
+      "toUserId": null,
+      "timestamp": "2025-04-14T03:05:03.429Z",
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "type": "reversal",
+      "amount": 300,
+      "toUserId": null,
+      "timestamp": "2025-04-14T03:05:04.935Z",
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "type": "reversal",
+      "amount": 300,
+      "toUserId": null,
+      "timestamp": "2025-04-14T03:05:06.097Z",
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "type": "transfer",
+      "amount": 350,
+      "toUserId": 3,
+      "timestamp": "2025-04-14T03:05:33.505Z",
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "type": "reversal",
+      "amount": 350,
+      "toUserId": 3,
+      "timestamp": "2025-04-14T03:05:39.940Z",
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "type": "reversal",
+      "amount": 350,
+      "toUserId": 3,
+      "timestamp": "2025-04-14T03:05:41.059Z",
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "type": "reversal",
+      "amount": 350,
+      "toUserId": 3,
+      "timestamp": "2025-04-14T03:07:06.111Z",
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "type": "deposit",
+      "amount": 400,
+      "toUserId": null,
+      "timestamp": "2025-04-14T03:10:49.984Z",
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "type": "transfer",
+      "amount": 200,
+      "toUserId": 4,
+      "timestamp": "2025-04-14T03:11:31.903Z",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "type": "reversal",
+      "amount": 200,
+      "toUserId": 4,
+      "timestamp": "2025-04-14T03:11:39.027Z",
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "type": "deposit",
+      "amount": 700,
+      "toUserId": null,
+      "timestamp": "2025-04-14T03:25:45.389Z",
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "type": "deposit",
+      "amount": 200,
+      "toUserId": null,
+      "timestamp": "2025-04-14T03:26:32.446Z",
+      "id": 18
+    },
+    {
+      "userId": 1,
+      "type": "deposit",
+      "amount": 10,
+      "toUserId": null,
+      "timestamp": "2025-04-14T03:36:09.481Z",
+      "id": 19
+    },
+    {
+      "userId": 1,
+      "type": "deposit",
+      "amount": 30,
+      "toUserId": null,
+      "timestamp": "2025-04-14T03:36:15.315Z",
+      "id": 20
+    },
+    {
+      "userId": 1,
+      "type": "deposit",
+      "amount": 40,
+      "toUserId": null,
+      "timestamp": "2025-04-14T03:36:58.329Z",
+      "id": 21
+    },
+    {
+      "userId": 13,
+      "type": "deposit",
+      "amount": 20,
+      "toUserId": null,
+      "timestamp": "2025-04-14T03:43:10.444Z",
+      "id": 22
+    },
+    {
+      "userId": 13,
+      "type": "transfer",
+      "amount": 5,
+      "toUserId": 1,
+      "timestamp": "2025-04-14T03:43:30.444Z",
+      "id": 23
+    },
+    {
+      "userId": 13,
+      "type": "reversal",
+      "amount": 5,
+      "toUserId": 1,
+      "timestamp": "2025-04-14T03:43:36.711Z",
+      "id": 24
+    },
+    {
+      "userId": 1,
+      "type": "deposit",
+      "amount": 22222,
+      "toUserId": null,
+      "timestamp": "2025-04-14T04:28:44.552Z",
+      "id": 25
+    },
+    {
+      "userId": 1,
+      "type": "reversal",
+      "amount": 22222,
+      "toUserId": null,
+      "timestamp": "2025-04-14T04:28:59.923Z",
+      "id": 26
+    },
+    {
+      "userId": 1,
+      "type": "reversal",
+      "amount": 22222,
+      "toUserId": null,
+      "timestamp": "2025-04-14T04:29:02.926Z",
+      "id": 27
+    }
+  ]
+}
